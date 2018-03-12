@@ -1,0 +1,48 @@
+/* PHASE 1: Header */
+header {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: #f00;
+  height: 40px;
+}
+
+header nav h1 {
+  display: flex;
+  align-items: center;
+  border: 0 solid #ccc;
+  border-left-width: 1px;
+  border-right-width: 1px;
+  height: 100%;
+  padding: 0 20px;
+  font-weight: 700;
+}
+
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+}
+
+nav ul {
+  height: 100%;
+  display: flex;
+}
+
+nav li {
+  border-right: 1px solid #ccc;
+  height: 100%;
+}
+
+nav li:first-child {
+  border-left: 1px solid #ccc;
+}
+
+nav li a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px;
+}
